@@ -1,0 +1,23 @@
+{
+   "max_date": Date de début des inscriptions,
+   "min_date": Date la plus ancienne pour les games à récupérer,
+   "games_min_solo": Nombre de games "solo" à récupérer au minimum,
+   "games_min_total": Nombre de games total à récupérer au minimum,
+   "games_max_total": Nombre de games total à récupérer au maximum lors de la première update dans le cas ou le nombre de games solo est supérieur ou égal à games_min_total,
+   "scaling_per_solo_min": Multiplicateur du facteur winrate en solo basé sur le pourcentage total en solo, valeur minimum pour un pourcentage de 1/3,
+   "flat_per_solo_scaling": Ajout au multiplicateur précédent pour chaque augmentation de 1/3 du pourcentage, valeur maximum pour un pourcentage de 1,
+   "scaling_pond_max": Multiplicateur du facteur winrate en premade basé sur le Δ de winrate entre solo et premade. Le multiplicateur initial est de 1 et se rapproche de sa valeur maximum quand le pourcentage en solo s'approche de 0.5,
+   "seuil_pond_max": Valeur du Δ de winrate entre solo et premade pour appliquer la valeur maximum du multiplicateur précédent,
+   "power_delta_winrate": Puissance sur l'écart à un winrate de 0.5,
+   "scaling_winrate": Multiplicateur du facteur winrate total,
+   "scaling_tier_power": Multiplicateur de la puissance du tier sur le facteur winrate total,
+   "scaling_distier_min": Multiplicateur du coeff de réduction basé sur le pourcentage total en solo du score solo, valeur minimum pour un pourcentage de 1/3. Le coeff de réduction pénalise l'impact des tiers éloignés au score solo lors de l'établissement du second score,
+   "flat_distier_scaling": Ajout au multiplicateur précédent pour chaque augmentation de 1/3 du pourcentage, valeur maximum pour un pourcentage de 1,
+   "scaling_distier_dir": Multiplicateur de la différence de tier considérant la direction haut/bas pour le coeff de réduction,
+   "power_distier_min": Puissance sur la différence de tier totale pour le coeff de réduction. Puissance basée sur le Δ de pourcentage total en solo entre le score solo et le second score, valeur minimum pour Δ = 0,
+   "flat_distier_power": Ajout à la puissance précédente pour chaque augmentation de 1/3 du Δ, valeur maximum pour un Δ de 2/3,
+   "games_min_tier": Nombre de games minimum par tier : Sécurité pour éviter une erreur sur le log,
+   "scaling_log": Multiplicateur du nombre de games dans le log (base e),
+   "flat_log": Ajout au nombre de games dans le log,
+   "power_log": Puissance sur le log comprenant le nombre de games
+}
