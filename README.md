@@ -1,4 +1,4 @@
-# 2R2T_RateMyLVL
+# 2R2T_RateMyLvl
 - L'usage de ce script est strictement réservé à la série de tournois 2R2T : https://2r2t.gg/
 - Si vous ne faites pas partie de l'équipe 2R2T, cette page n'existe que dans un but de documentation.
 - Le code n'est pas encore commenté (à venir) et le script opgg_scrapper.py n'a pas été réalisé par mes soins mais grâce à ChatGPT (merci à lui), une version rédigée manuellement sera faite dès que possible.
